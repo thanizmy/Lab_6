@@ -19,7 +19,7 @@ def encode_password(string):
         password += str(int_number + 3) if int_number < 7 else str(int_number - 7)
     return password
 
-# FIXME: decodes passwords
+# FIXME: Encodes the passwords
 
 
 if __name__ == "__main__":
@@ -30,7 +30,7 @@ if __name__ == "__main__":
             print("Your password has been encoded and restored!")
             print()
             new_password = encode_password(user_password)
-        elif user_input == 2:   # FIXME: Encodes passwords
+        elif user_input == 2:   # FIXME: Encodes passwords command
             pass
         else:
             break
